@@ -1,0 +1,11 @@
+body
+{
+    background-image: url(./img/backgrod.jpg);
+    color: white;
+}
+.nomeG{
+    height: 100vh;
+    text-align: right;
+    justify-content: center;
+    display:flex;
+}
