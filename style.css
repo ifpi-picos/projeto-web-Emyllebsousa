@@ -12,7 +12,6 @@ header img{
     max-width: 350px;
     top: 0px;
     margin-left: 30px;
-    
 }
 header ul{
     display: flex;
@@ -20,13 +19,13 @@ header ul{
     padding:30px 80px 30px 30px;
     gap: 60px;
     list-style: none;
-    
 }
  
 header ul li a{
 text-decoration: none;
 color:#c92279;
 }
+
 
 .Inicio{
     display: flex;
@@ -85,6 +84,7 @@ section p{
     height: 600px;
     margin-top: 100px;
     justify-content: space-around; 
+    margin-bottom: 90px;
 }
 .titulo{
     text-align: center;
@@ -111,15 +111,17 @@ section p{
     max-width: 250px;
     max-height: 450px;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 50px;
     
      
 }
 .titulo h1{
     color:black;
 }
-.titulo h2{
-    color:#c92279;
+.titulo h2
+
+{
+    color:#7D0047;
 }
 
 .card p ,.card1 p, .card2 p{
@@ -128,3 +130,13 @@ font-size: 20px;
 text-align: center;
 }
 
+.valores{
+    margin-top: 50px;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-image: url("img/table.png");
+    background-size: cover;
+    background-position: center;
+}
