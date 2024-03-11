@@ -4,7 +4,11 @@
     padding: 0;
 
 }
-
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
 
 header img{
     
@@ -19,6 +23,7 @@ header ul{
     padding:30px 80px 30px 30px;
     gap: 60px;
     list-style: none;
+       
 }
  
 header ul li a{
@@ -35,6 +40,7 @@ color:#c92279;
     background-image: url("img/fundo.png");
     background-size: cover;
     background-position: center;
+    padding-top: 50px;
 }
 
 
@@ -54,7 +60,9 @@ section p{
     margin-top: 70px;
     justify-content: space-around;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    padding-top: 80px;   
+ 
 }
 
 .text{
@@ -84,7 +92,8 @@ section p{
     height: 600px;
     margin-top: 100px;
     justify-content: space-around; 
-    margin-bottom: 90px;
+padding-top: 80px;   
+ margin-bottom: 90px;
 }
 .titulo{
     text-align: center;
@@ -139,4 +148,20 @@ text-align: center;
     background-image: url("img/table.png");
     background-size: cover;
     background-position: center;
+}
+.CONTATO {
+    display: flex;
+    width: 100vw;
+    height: 600px;
+}
+.info{
+    padding-top: 50px;
+
+    justify-content: end;
+    margin: 100px 30px 100px 200px;
+    max-width: 400px;
+}
+.imagemctt{
+  padding-top: 50px;
+    justify-content: start;
 }
