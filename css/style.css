@@ -38,7 +38,7 @@ color:#c92279;
     height: 100vh;
     width: 100%;
     align-items: center;
-    background-image: url("img/fundo.png");
+    background-image: url("/img/fundo_1.webp");
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -170,7 +170,7 @@ text-align: center;
     height: 100vh;
     width: 100%;
     align-items: center;
-    background-image: url("img/table.png");
+    background-image: url("/img/table_1.webp");
     background-size: cover;
     background-position: center;
 }
@@ -221,9 +221,8 @@ padding-right: 30px;
         width: 100%;
         padding: 0;
     }
-    .ImgSobre{
-       
-        display: none;
+    .container{
+        flex-direction: column;
         
     }
     
