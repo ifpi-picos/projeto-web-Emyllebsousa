@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* width: 100%; */
 }
 header{
     position: fixed;
@@ -41,9 +42,14 @@ color:#c92279;
     background-size: cover;
     background-position: center;
     padding-top: 50px;
+    
 }
 
-
+.ImgSobre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 section h1{
     
     color: black;
@@ -57,28 +63,41 @@ section p{
 .container { 
     width: 100%;
     height: 700px;
-    margin-top: 70px;
-    justify-content: space-around;
+    margin: 20px;
+    justify-content: space-around; 
     display: flex;
     align-items: center;
-    padding-top: 80px;   
+    padding-top: 80px;
  
 }
 
-.text{
-    max-width: 40%;
-
+.area-text{
+    /* max-width: 40%;*/
+    width: 100%; 
+    display: flex;
+    justify-content: center;
 }
 .text h2{
     color:#c92279;
 
 }
+
+.area-paragrafo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .paragrafo-direita{
+    width: 80%;
+    min-width: 50%;
+    text-align: justify;
     font-size: 28px;
 }
 
 .imagem7{
-    scale: 1.8;
+    /* scale: 1.8; */
+    width: 70%;
 }
 
 .ph{
@@ -124,6 +143,12 @@ padding-top: 80px;
     
      
 }
+.card:hover,.card1:hover,.card2:hover{
+   /* background: purple; */
+padding: 10px;
+box-shadow: 4px 4px 4px 4px  lightslategray;
+transform: scale(1.1);
+}
 .titulo h1{
     color:black;
 }
@@ -154,14 +179,60 @@ text-align: center;
     width: 100vw;
     height: 600px;
 }
-.info{
+.info h1{
+    color: #7D0047;
+    font-size: 50PX;
+}
+.info {
     padding-top: 50px;
-
     justify-content: end;
+    
     margin: 100px 30px 100px 200px;
     max-width: 400px;
+    
 }
 .imagemctt{
   padding-top: 50px;
-    justify-content: start;
+  justify-content: start;
+  margin-left: 100px;
+ }
+.icon{
+    display: flex;
+justify-content: center;
+padding-top: 50px;
+}
+.fa-whatsapp {
+    color: green;
+ font-size: 48px;
+padding-right: 30px;
+}
+.fa-instagram{
+    color: #7D0047;
+    font-size: 48px;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 48px;
+    padding-left: 30px;
+
+}
+@media screen and(max-width:768px) {
+    section{
+        width: 100%;
+        padding: 0;
+    }
+    .ImgSobre{
+       
+        display: none;
+        
+    }
+    
+}
+@media screen and(max-width:600px) {
+header li{
+float : none;
+text-align: center;
+width: 100%;
+}
+
 }
